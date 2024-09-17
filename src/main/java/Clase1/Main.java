@@ -1,6 +1,8 @@
 
 package Clase1;
 
+import Clase2.Persona;
+
 import java.util.Date;
 
 public class Main {
@@ -31,7 +33,5 @@ public class Main {
         System.out.println(numerosLargos);
         System.out.println(fracCortas);
 
-        
-        
     }
 }

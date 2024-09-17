@@ -6,7 +6,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+  /*      Scanner scanner = new Scanner(System.in);
         System.out.println("Digite su nombre");
         String nombre =scanner.next();
         System.out.println("Nombre: "+nombre);
@@ -16,11 +16,17 @@ public class Main {
         System.out.println("Edad: "+edad);
 
         scanner.close();
+*/
+        Persona persona = new Persona();
+        persona.setEdad(31);
+        persona.setGenero("NO BINARIO");
+        persona.setNombreCompleto("Camilo");
+
+        System.out.println("la edad de la persona es: " +persona.getEdad());
+        System.out.println("la Nombre completo es: " +persona.getNombreCompleto());
+        System.out.println("su Genero es: " +persona.getGenero());
 
 
-        Persona persona1 = new Persona("Mauricio");
-
-        System.out.println(persona1.nombreCompleto);
     }
 
 }
