@@ -9,6 +9,7 @@ public class Persona {
         this.nombreCompleto=nombreCompleto;
     }
 
+    private static int id;
     private String nombreCompleto;
     private int edad;
     private String genero;
@@ -39,8 +40,8 @@ public class Persona {
         this.genero = genero;
     }
 
-    //static
-    public String correr(){
+
+    public static String correr(){
        return "Estoy corriendo";
     }
     public String saltar(){
@@ -49,7 +50,12 @@ public class Persona {
     public  String nadar(){
         return "Estoy nadando";
     }
-    public void escalar(){
 
+    public static int getId() {
+        return id;
+    }
+
+    public static void setId(int id) {
+        Persona.id = id;
     }
 }

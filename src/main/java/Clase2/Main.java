@@ -1,5 +1,7 @@
 package Clase2;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.Scanner;
 
 public class Main {
@@ -22,9 +24,11 @@ public class Main {
         persona.setGenero("NO BINARIO");
         persona.setNombreCompleto("Camilo");
 
-        System.out.println("la edad de la persona es: " +persona.getEdad());
-        System.out.println("la Nombre completo es: " +persona.getNombreCompleto());
-        System.out.println("su Genero es: " +persona.getGenero());
+        Persona.correr();
+
+//        System.out.println("la edad de la persona es: " +persona.getEdad());
+//        System.out.println("la Nombre completo es: " +persona.getNombreCompleto());
+//        System.out.println("su Genero es: " +persona.getGenero());
 
 
     }
