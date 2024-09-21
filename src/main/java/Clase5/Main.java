@@ -21,5 +21,7 @@ public class Main {
         myList2.add("Pera");
        // myList.add("Gaseosa");
 
+        myList.stream().forEach(System.out::println);
+
     }
 }
