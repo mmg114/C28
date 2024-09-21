@@ -61,6 +61,14 @@ public class Main {
             System.out.println(comidas);
         }
 
+        try{
+            System.out.println(arregloPalabras[4]);
+        }catch (ArrayIndexOutOfBoundsException e){
+            System.out.println(e);
+        }catch (RuntimeException e){
+            System.out.println(e);
+        }
+
     }
 
 
